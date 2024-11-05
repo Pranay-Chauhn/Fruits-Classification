@@ -1,7 +1,3 @@
-Here's a structured README file for your fruit classification project. This will help showcase each step, from model creation in Google Colab to deployment using FastAPI and creating a user-friendly website.
-
----
-
 # Fruit Classification Project 🍎🍌🥭
 
 ## Overview
@@ -34,10 +30,28 @@ cd fruit-classification
 ```
 
 ### Set Up Python Environment
-Install the required packages from `requirements.txt`.
-```bash
-pip install -r requirements.txt
-```
+
+To maintain compatibility, it's recommended to create a virtual environment with **Python 3.10**.
+
+1. **Create a Virtual Environment**:
+   ```bash
+   python3.10 -m venv venv
+   ```
+
+2. **Activate the Virtual Environment**:
+   - On macOS/Linux:
+     ```bash
+     source venv/bin/activate
+     ```
+   - On Windows:
+     ```bash
+     venv\Scripts\activate
+     ```
+
+3. **Install Dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 ### TensorFlow Serving
 Ensure TensorFlow Serving is installed to serve the model.
@@ -57,7 +71,7 @@ Model training was conducted in **Google Colab** due to its GPU support. The tra
 3. **Model Architecture**: A Convolutional Neural Network (CNN) was implemented using **TensorFlow** and **Keras**.
 4. **Evaluation**: Validated model accuracy on unseen data to ensure generalization.
 
-*Colab Notebook link*: [Fruit Classification Model Training](#)
+*Colab Notebook link*: [https://github.com/Pranay-Chauhn/Fruits-Classification/blob/main/fruit_classification.ipynb](#)
 
 ### Model Export
 The trained model was exported in `SavedModel` format to be used in TensorFlow Serving for deployment.
@@ -114,5 +128,3 @@ A simple, responsive web application was developed using **HTML**, **CSS**, and 
 ---
 
 Feel free to explore, fork, or contribute to this project. For any issues or questions, reach out via GitHub or LinkedIn.
-
-

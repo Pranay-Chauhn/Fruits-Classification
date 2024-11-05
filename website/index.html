@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Classifier</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Fruit Classification</h1>
+        <form id="uploadForm">
+            <input type="file" id="imageFile" accept="image/*" required>
+            <button type="submit">Predict</button>
+        </form>
+        <div id="result">
+            <h2>Prediction</h2>
+            <div id="predictionContainer">
+                <img id="predictedImage" src="" alt="Predicted Fruit" style="display: none; width: 100px; height: 100px; margin-right: 10px; margin-left: 235px ; border: black;
+    border-style: double;
+    border-color: black;">
+                <div>
+                    <p id="predictedClass"></p>
+                    <p id="confidence"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

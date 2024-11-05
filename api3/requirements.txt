@@ -1,0 +1,15 @@
+tensorflow==2.15.0
+keras==2.15.0
+tensorflow-datasets
+tensorflow-estimator==2.15.0
+tensorflow-hub
+tensorflow-io-gcs-filesystem
+tensorflow-metadata
+tensorflow-probability==0.24.0
+#tensorflow-text
+fastapi>=0.109.1
+uvicorn>=0.18.3
+python-multipart>=0.0.7
+pillow>=9.0.0
+matplotlib>=3.6.0
+numpy>=1.23.0

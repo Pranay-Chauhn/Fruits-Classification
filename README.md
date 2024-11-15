@@ -62,6 +62,8 @@ Ensure TensorFlow Serving is installed to serve the model.
 ## Dataset
 The model is trained on a diverse dataset of fruits with **141 categories**. Each category folder contains images of specific fruits, helping the model generalize well across different classes.
 
+Here is the link to download Fruit Classificaion Dataset : [https://www.kaggle.com/datasets/moltean/fruits]
+
 ## Model Training
 
 Model training was conducted in **Google Colab** due to its GPU support. The training process included:
